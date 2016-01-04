@@ -136,6 +136,9 @@ h1, h3, h4, h5, p {
   Primary header
   ========================================
 */
+.primary-header {
+  background-color: black;
+}
 
 .logo {
   border-top: 4px solid #648880;
@@ -191,6 +194,7 @@ h1, h3, h4, h5, p {
 .container {
   padding-left: 30px;
   padding-right: 30px;
+  background-color: black;
 }
 
 /*
@@ -202,6 +206,7 @@ body {
   background: #293f50;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
 }
 
 h1, h2, h3, h4 {
@@ -305,6 +310,9 @@ p a {
 .nav {
   text-align: right;
 }
+.primary-nav {
+  margin-top: 70px;  
+}
 
 .primary-header a,
 .primary-footer a {
@@ -324,13 +332,14 @@ p a {
 
 .row {
   background: #fff;
-  min-width: 960px;
+  width: 960px;
   padding: 66px 0 44px 0;
+  margin: auto;
 }
 
 .row,
 .row-alt {
-  min-width: 960px;
+  width: 960px;
 }
 
 .row {
