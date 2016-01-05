@@ -383,16 +383,51 @@ p a {
   ========================================
 */
 
+/*
+  ========== Project Demo ==========
+*/
 .row.demo {
+  border-bottom: 1px solid #ccc;  
+}
+
+.row.demo h3 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#demo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.myshop {
   border-bottom: 1px solid #ccc;
 }
 
+.yelplike {
+  margin-top: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.myflix {
+  margin-top: 50px;
+}
+
+/*
+  ========== Links ==========
+*/
 .row.links {
   border-bottom: 1px solid #ccc;
 }
 
 .row.links h3 {
   text-align: center;
+  padding-bottom: 50px;
+}
+
+#links {
+  padding-top: 30px;
+  padding-bottom: 80px;
 }
 
 .link_group {
@@ -408,3 +443,17 @@ p a {
   padding-right: 80px;
 }
 
+/*
+  ========== Contact ==========
+*/
+#contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#contact h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family:Verdana;
+  font-size: 40px;
+}
