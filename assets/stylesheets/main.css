@@ -206,7 +206,7 @@ body {
   background: #293f50;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: linear-gradient(to right, rgb(107, 83, 62), #f6f1d3);
 }
 
 h1, h2, h3, h4 {
@@ -289,7 +289,8 @@ a {
   font-size: 36px;
 }
 .hero p {
-  font-size: 24px;
+  margin: 40px auto;
+  font-size: 36px;
   font-weight: 100;
 }
 
@@ -398,6 +399,11 @@ p a {
 #demo {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+#demo img {
+  width: 400;
+  height: 400;
 }
 
 .myshop {
