@@ -430,7 +430,7 @@ p a {
 */
 .row.demo {
   border-bottom: 1px solid #ccc;
-  position: relative; 
+  position: relative;
 }
 
 .row.demo h3 {
@@ -462,6 +462,8 @@ p a {
 .demo-link {
   border-bottom: 1px solid #ccc;
   position: relative;
+  max-height: 900px;
+  padding-bottom: 20px;
 }
 
 .demo-repo {
@@ -472,13 +474,15 @@ p a {
 
 .caption {
   position: absolute;
-  right: 120px;
-  top: 100px;
+  right: 50px;
+  top: 50px;
+  width: 300px;
 }
 
 .caption ul li {
   padding-bottom: 10px;
   list-style: initial;
+  margin-left: 30px;
 }
 
 .yelplike {

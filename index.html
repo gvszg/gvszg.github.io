@@ -41,7 +41,7 @@
         <h3>專案Demo</h3>
         <!-- Demo 1 -->
         <section class="myshop">
-          <div class="demo-link well">
+          <div class="demo-link well" style="height: 580px;">
             <h5>Demo 1</h5>
             <p>購物車網站</p>            
             <a href="https://myshop-demo.herokuapp.com/" target="_blank">            
@@ -53,18 +53,26 @@
               專案原始碼
             </a>
             <div class="caption">
+              <p>
+                這個專案要實作一個電子商務網站，運用了User Story規劃出一個個功能來完成。網站使用權限分為管理者與一般使用者。管理者可以新增編輯商品，能上傳圖片至AWS S3，能查看訂單狀態、取消訂單。使用者能瀏覽商品、將商品加入購物車，完成訂購後會收到Email通知。
+              </p><br>        
+              <p>這個專案用到了：</p>
               <ul >
                 <li>管理者與使用者權限分離</li>
                 <li>購物車設計</li>
+                <li>Devise 使用者認證</li>
+                <li>CarrierWave 上傳圖片</li>
                 <li>歐付寶 API</li>
-                <li>Haml</li>
+                <li>AASM 狀態機</li>
+                <li>Service Object</li>
+                <li>Haml 樣板引擎</li>
               </ul>
             </div>
           </div>
         </section><!--
         Demo 2
         --><section class="yelplike">
-          <div class="demo-link well">
+          <div class="demo-link well" style="height: 500px;">
             <h5>Demo 2</h5>
             <p>TDD練習專案</p>
             <a href="https://yelp-like.herokuapp.com/" target="_blank">
@@ -75,19 +83,28 @@
             <a class="demo-repo" href="https://github.com/gvszg/yelplike">
               專案原始碼
             </a>
-            <div class="caption" style="padding-right: 100px;">
+            <div class="caption" style="padding-right: 10px;">
+              <p>
+                這個專案用來練習RSpec測試開發，先寫測試，在寫程式碼。使用者可以註冊、登入，分享店家資訊，並可以選擇給予評價和評語。
+              </p>
+              <p>
+                測試部分包含：Model層級的單元測試、Controller層級的功能性測試、Capybara模擬使用者觀點的整合測試。
+              </p>
+              <br>        
+              <p>這個專案用到了：</p>
               <ul >
-                <li>TDD</li>
+                <li>TDD/BDD</li>
                 <li>RSpec</li>
                 <li>Capybara</li>
-                <li>Haml</li>
+                <li>手作使用者認證系統</li>
+                <li>Haml樣板引擎</li>
               </ul>
             </div>
           </div>
         </section><!--
         Demo 3
         --><section class="myflix">
-          <div class="demo-link well">
+          <div class="demo-link well" style="height: 580px;">
             <h5>Demo 3</h5>
             <p>線上影片網站</p>
             <a href="https://go-myflix.herokuapp.com" target="_blank">
@@ -98,14 +115,22 @@
             <a class="demo-repo" href="https://github.com/gvszg/myflix">
               專案原始碼
             </a>
-            <div class="caption" style="padding-right: 70px;">
+            <div class="caption" style="padding-right: 10px;">
+              <p>
+                這個專案實作出一個線上影片網站，運用RSpec作自動化測試執行開發。
+                網站權限可分為管理者與使用者。管理者能新增影片、圖片與敘述。使用者需先刷卡付費才能完成註冊並收到Email確認通知。登入後可將影片加入等待觀看的清單，可以任意對影片做排序。
+              </p>
+              <br>        
+              <p>這個專案用到了：</p>
               <ul >
-                <li>使用者影片清單</li>
-                <li>Stripe API</li>
-                <li>TDD</li>
+                <li>TDD/BDD</li>
                 <li>RSpec</li>
                 <li>Capybara</li>
-                <li>Haml</li>
+                <li>手作使用者認證系統</li>
+                <li>Stripe API</li>
+                <li>Object Service</li>
+                <li>View decorator</li>
+                <li>Haml樣板引擎</li>
               </ul>
             </div>
           </div>
